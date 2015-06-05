@@ -1,4 +1,3 @@
-function createAccount(key) {
-var accountName, accountNumber;
-if (validate(key)) return {accountName,accountNumber};
+function createAccount(key,accNum,accName,accBal) {
+if (validate(key) && accBal>0) accCreate(accNum,accName,accBal};
 }
